@@ -58,7 +58,7 @@ ul li a:hover::after{
 .narvab-icons{
   margin-left: 1200px;
   top: -130px;
-  position: relative;
+  position: relative;   
   
 }
 cite{
@@ -69,8 +69,8 @@ cite{
 }
 
 .right-column img{
- width: 800px;
- height: 600px; 
+ width: 500px;
+ height: 500px; 
  margin-left: auto;
  margin-right: auto;
  overflow:hidden;
@@ -140,11 +140,13 @@ background: rgb(136, 24, 86);
 .left-column h1{
     font-size: 100px;
     font-family: lucida;
+    position: relative;
 
 
 }
 .left-column h3{
     font-size: 35px;
+    position: relative;
 }
 
 span{

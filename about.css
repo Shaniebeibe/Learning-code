@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+html{
+    box-sizing: border-box;
+}
+.about-section{
+    padding: 50px;
+    text-align: center;
+    color: rgb(168, 33, 112);
+}
+.about-section h1{
+    color: rgb(160, 63, 79);
+}
+.about-section p{
+    color: gray;
+}
+.title{
+    color: rgb(107, 40, 79);
+    text-align: center;
+    margin-right: 400px;
+}
+.Main{
+    
+}
+.ceo{
+    width: 600px;
+    height: 500px;
+    background-color:rgb(233, 196, 217);
+    margin: auto;
+    border-radius: 8px;
+    border-style: ridge;
+    padding: 30px;
+}
+.ceo img{
+    height: 300px;;
+    width: 300px;
+
+}
+.ceo-abt{
+    box-shadow: rosybrown;
+    margin: 8px;
+}
+.about-section h2{
+    color: rgb(104, 22, 70);
+
+}
+.more{
+    text-align: center;
+    color: rgb(168, 33, 112);
+    font-size: large;
+
+
+}
+.button-container{
+    cursor: pointer;
+    border-radius: 20px;
+    background: linear-gradient( rgb(196, 28, 106), violet);
+    box-shadow: 0 2px 15px black;
+    color:white;
+}
+button{
+
+    background: linear-gradient( rgb(196, 28, 106), violet);
+    color:white;
+    height: 30px;
+    width: 20%;
+    margin-left: 20px;
+}
