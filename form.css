@@ -21,6 +21,9 @@ body{
     align-items: center;
 
 }
+nav{
+    background: rgb(240, 214, 214);
+}
 ul{
     flex: 1;
     text-align:right;
@@ -28,29 +31,27 @@ ul{
 ul li{
     display: inline-block;
     list-style: none;
-    margin: 0 25px;
+    margin:25px;
 
 }
 ul li a{
     text-decoration: none;
-    color: rgb(180, 29, 112);
+    color: rgb(129, 53, 106);
     padding: 0 ;
     font-size: 25px;
     position: relative;
-    right: 200px;
-    bottom: 100px;
-    font-weight: bolder;
+    font-weight: bolder; 
 
 }
 ul li ::after{
     content: "";
     width: 0;
     height: 10px;
-    background: rgb(161, 9, 116);
+    background: rgb(129, 53, 106);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top:-55px;
+    top:-20px;
     transition: 0.5s;
 
 }
@@ -79,31 +80,25 @@ cite{
 .search-box{
     width: 40%;
     display: inline-flex;  
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     border-bottom:1px rgb(119, 5, 81);
     position: relative;
-    right: -870px;
-    top: -200px;
-
+    right: -1050px;
+    top: -270px;
     
 }
-.search-box img{
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-
+#search{
+    background: white url(search.png) right no-repeat ;
+    width: 400px;
+    margin: auto;
+    
+    font-size: 22px;
 }
-.search-box input{
-    width: 100%;
-    margin-right: 15px;
-    font-size: 17px;
 
-}
 .left-column h1{
     font-size: 100px;
     font-family: lucida;
     position: relative;
-
 
 }
 .left-column h3{
@@ -164,5 +159,5 @@ em{
 
 }
 footer{
-    background: rgb(184, 107, 149);
+    background: rgb(240, 214, 214);
 }
