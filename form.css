@@ -1,9 +1,16 @@
 *{
+
     margin: 0;
     padding:0;
     font-family:sans-serif;
-
 }
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 700px;
+}
+
 .hero{
     width: 80;
     margin: auto;
@@ -28,10 +35,11 @@ ul li a{
     text-decoration: none;
     color: rgb(180, 29, 112);
     padding: 0 ;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
-    right: 400px;
+    right: 200px;
     bottom: 100px;
+    font-weight: bolder;
 
 }
 ul li ::after{
@@ -49,18 +57,6 @@ ul li ::after{
 ul li a:hover::after{
     width: 100%;
 }
-.narvab-icons img{
-    height: 50px;
-    margin-left: 50px;
-    cursor: pointer;
-   
-}
-.narvab-icons{
-  margin-left: 1200px;
-  top: -130px;
-  position: relative;   
-  
-}
 cite{
     color: rgb(189, 31, 128);
     position: relative;
@@ -71,54 +67,20 @@ cite{
 .right-column img{
  width: 500px;
  height: 500px; 
- margin-left: auto;
- margin-right: auto;
- overflow:hidden;
- text-align: center;
  display: inline-flex;
- margin-bottom: 150px;
-}
-.image-container{
-    width: 2400px;
-    height: 600;
-    position: relative;
-    transition: left 2s;
-    -webkit-transition: left 2s;
 
 }
-.slider-image{
-    float: left;
-    margin: 0px;
-    padding: 0px;
+.bout{
+    border-radius:5px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
 }
-.button-container{
-    left: 200px;
-    top: -200px;
-    position: relative;
-}
-.slider-button{
-display: inline-block;
-height:10px ;
-width:10px ;
-border-radius: 5px;
-background: rgb(136, 24, 86);
-
-}
-#slider-image-1:target ~ .image-container{
-    left: 0px;  
-}
-#slider-image-2:target ~ .image-container{
-    left:-1000px;  
-}
-#slider-image-3:target ~ .image-container{
-    left:-1600px;  
-}
-
 .search-box{
     width: 40%;
     display: inline-flex;  
     padding-bottom: 3px;
-    border-bottom:1px blueviolet;
+    border-bottom:1px rgb(119, 5, 81);
     position: relative;
     right: -870px;
     top: -200px;
@@ -162,10 +124,10 @@ em{
 
 }
 .left-column p{
-    font-size: 14px;
-    color: #999;
+    font-size: 18px;
+    color: rgb(53, 52, 52);
     margin: 50px 0;
-        font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .btn button{
     padding: 7px 30px;
@@ -186,18 +148,21 @@ em{
 }
 .btn{
     margin-bottom: 50px;
+    width: 500PX;
+    margin: auto;
 }
 .social-icons{
     width:"200px";
     text-align: center;
     opacity: 4;
-    cursor: pointer ;
-
-
+    margin-right:200px;
 }
 .social-icons img{
     height: 40px;
-    margin: 0 14px;
+    margin: 14px;
+    cursor: pointer;
 
 }
-}   
+footer{
+    background: rgb(184, 107, 149);
+}
