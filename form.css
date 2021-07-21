@@ -8,7 +8,7 @@ body{
     background-image: url(back.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 700px;
+    background-size: 500px;
 }
 
 .hero{
@@ -22,7 +22,7 @@ body{
 
 }
 nav{
-    background: rgb(240, 214, 214);
+    background:rgb(240, 214, 214);
 }
 ul{
     flex: 1;
@@ -38,10 +38,9 @@ ul li a{
     text-decoration: none;
     color: rgb(129, 53, 106);
     padding: 0 ;
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     font-weight: bolder; 
-
 }
 ul li ::after{
     content: "";
@@ -53,7 +52,6 @@ ul li ::after{
     transform: translateX(-50%);
     top:-20px;
     transition: 0.5s;
-
 }
 ul li a:hover::after{
     width: 100%;
@@ -77,27 +75,24 @@ cite{
     text-align: center;
     margin: auto;
 }
-.search-box{
-    width: 40%;
-    display: inline-flex;  
-    padding-bottom: 4px;
-    border-bottom:1px rgb(119, 5, 81);
-    position: relative;
-    right: -1050px;
-    top: -270px;
-    
-}
-#search{
-    background: white url(search.png) right no-repeat ;
-    width: 400px;
-    margin: auto;
-    
-    font-size: 22px;
-}
 
+.search-box{
+text-align: right;
+position: relative;
+top: -280px;
+padding: 10px;
+}
+.search-box input{
+    width: 30%;
+    height: 25px;
+    font-size: 15px;    
+    background: url(search.png) no-repeat right;
+    border-radius: 5px;
+    
+}
 .left-column h1{
     font-size: 100px;
-    font-family: lucida;
+     font-family: lucida;
     position: relative;
 
 }
@@ -115,8 +110,6 @@ em{
     position: center;
     font-size: 30px;
     font-family: lucida caligraphy;
-
-
 }
 .left-column p{
     font-size: 18px;
@@ -124,22 +117,23 @@ em{
     margin: 50px 0;
     font-family: 'Times New Roman', Times, serif;
 }
+.btn{
+    text-align: center;
+}
 .btn button{
     padding: 7px 30px;
-    margin-left: 15px;
+    margin-left: 20px;
     outline: none;
     border:1px solid rgb(117, 10, 76);
     border-radius: 20px;
     cursor: pointer;
     color: rgb(196, 28, 106);
-    background: transparent
+    background: transparent;
+    
 }
 .btn .primary-btn{
     background: linear-gradient( rgb(196, 28, 106), violet);
-    box-shadow: o 2px 15px black;
     color:white;
-
-
 }
 .btn{
     margin-bottom: 50px;
@@ -150,7 +144,6 @@ em{
     width:"200px";
     text-align: center;
     opacity: 4;
-    margin-right:200px;
 }
 .social-icons img{
     height: 40px;
