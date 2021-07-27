@@ -1,6 +1,11 @@
+*{
+
+    margin: 0;
+    padding:0;
+    font-family:sans-serif;
+}
 body{
-    box-sizing: border-box;
-    background-color: rgb(243, 219, 240);
+    background-color: rgb(218, 201, 210);
 }
 .cnt{
     border-radius:5px;
@@ -67,4 +72,39 @@ input[type=mail]{
         height: 30px;
         width: 10%;
         margin-left: 20px;
+    }
+    nav{
+        background:rgb(90,33,79);
+    }
+    ul{
+        flex: 1;
+        text-align:right;
+    }
+    ul li{
+        display: inline-block;
+        list-style: none;
+        margin:25px;
+    
+    }
+    ul li a{
+        text-decoration: none;
+        color: rgb(218, 201, 210);
+        padding: 0 ;
+        font-size: 20px;
+        position: relative;
+        font-weight: bolder; 
+    }
+    ul li ::after{
+        content: "";
+        width: 0;
+        height: 10px;
+        background: rgb(218, 201, 210);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top:-20px;
+        transition: 0.5s;
+    }
+    ul li a:hover::after{
+        width: 100%;
     }

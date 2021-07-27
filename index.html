@@ -2,26 +2,45 @@
 <html>
     <head>
         <title>Online Happy Bags</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="./form.css">
-        
-
     </head>
-    <body> 
-        <div class="hero">
+    <body>
         <nav>     
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li> <a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
-            </nav>
-     
+            </nav> 
         <div class="narvab">
             <img src="5.png">
             
                     </div>
                     <p><cite>Walk With Confidence</cite></p>
+        <div class="slides">           
+                <img class="myslides" src="7.jpg">
+                <img class="myslides" src="8.jpg">
+                <img class="myslides" src="9.jpg">
+                <img class="myslides" src="10.jpg">
+            <script>
+                var myIndex=0;
+                carousel();
+                function carousel(){
+                    var i;
+                    var x =
+                    document.getElementsByClassName("myslides");
+                    for (i=0; i<x.length; i++){
+                        x[i].style.display="none";  }
+                    myIndex++;
+                    if( myIndex > x.length) { myIndex=1}
+                    x[myIndex-1].style.display="block";
+                setTimeout(carousel,3000);
+                }               
+            </script>
+        </div>
             
          <div class ="left-column">
                  <div class="search-box">
@@ -37,8 +56,8 @@
                 <p><span><em>The kind of bag you want is what we have</em></span></p>
             </div>
                 <div class="btn">
-                    <button type= "button" class="primary-btn">Learn more </button>
-                    <button type="button">Watch Video</button>
+                    <button type= "button" class="primary-btn" onclick=" document.getElementById('learn').style.display='block'">Learn more </button>       
+                    <p id="learn" style="display:none"> we are here to serve you</p>
                 </div>
                 <br>
                 <br>

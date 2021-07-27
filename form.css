@@ -5,15 +5,7 @@
     font-family:sans-serif;
 }
 body{
-    background-image: url(back.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 500px;
-}
-
-.hero{
-    width: 80;
-    margin: auto;
+   background: rgb(218, 201, 210);
 }
 .narvab{
     margin: 30px;
@@ -22,7 +14,15 @@ body{
 
 }
 nav{
-    background:rgb(240, 214, 214);
+    background:rgb(90,33,79);
+}
+.slides{
+    margin-left: 600px;
+    margin-top: -250px;
+}
+.slides img{
+    width: 40%;
+    height: 300px;
 }
 ul{
     flex: 1;
@@ -36,7 +36,7 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: rgb(129, 53, 106);
+    color: rgb(218, 201, 210);
     padding: 0 ;
     font-size: 20px;
     position: relative;
@@ -46,7 +46,7 @@ ul li ::after{
     content: "";
     width: 0;
     height: 10px;
-    background: rgb(129, 53, 106);
+    background: rgb(218, 201, 210);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -57,7 +57,7 @@ ul li a:hover::after{
     width: 100%;
 }
 cite{
-    color: rgb(189, 31, 128);
+    color: rgb(90, 33, 79);
     position: relative;
     margin-left: 50px;
     margin-top: 5px;
@@ -102,7 +102,7 @@ padding: 10px;
 }
 
 span{
-    color: rgb(194, 16, 99);
+    color: rgb(116, 9, 59);
     font-family: lucida;
 
 } 
@@ -127,12 +127,12 @@ em{
     border:1px solid rgb(117, 10, 76);
     border-radius: 20px;
     cursor: pointer;
-    color: rgb(196, 28, 106);
+    color: rgba(32, 3, 26, 0.37);
     background: transparent;
     
 }
 .btn .primary-btn{
-    background: linear-gradient( rgb(196, 28, 106), violet);
+    background: linear-gradient( rgb(82, 23, 50), violet);
     color:white;
 }
 .btn{
@@ -152,5 +152,10 @@ em{
 
 }
 footer{
-    background: rgb(240, 214, 214);
+    background: rgb(90, 33, 79);
+}
+@media (min-width:900px) {
+    nav{
+        align-items: left;
+    }
 }
