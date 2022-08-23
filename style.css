@@ -1,0 +1,11 @@
+:root::after{
+    content: " This is my first website and I AM EXTREMELY EXCITED !!!! This is my first website and I AM EXTREMELY EXCITED !!!! This is my first website and I AM EXTREMELY EXCITED !!!!This is my first website and I AM EXTREMELY EXCITED !!!! ";
+top: 10px;
+transform: rotate(45deg);
+position:fixed;
+font-family: 'Segoe UI';
+font-size: 30px;
+color: white;
+z-index: 2;
+    
+}
